@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'adp-angular';
+
+  title: string;
+
+  constructor() { }
+
+  ngOnInit() {
+    this.title = 'ADP Map'
+  }
 }
